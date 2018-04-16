@@ -3,11 +3,12 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/ReconfigureIO/goblin"
 	"go/ast"
 	"go/parser"
 	"go/token"
 	"os"
+
+	"github.com/ReconfigureIO/goblin"
 )
 
 // Assuming you build with `make`, this variable will be filled in automatically
